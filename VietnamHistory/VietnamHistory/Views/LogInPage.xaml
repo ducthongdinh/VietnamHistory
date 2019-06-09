@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VietnamHistory.Views.LogInPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="50" VerticalOptions="Center">
+            <Button Text="Email" TextColor="White" BackgroundColor="ForestGreen"></Button>
+            <Button Text="Facebook" TextColor="White" BackgroundColor="#29487D" Margin="0, 0, 0, 50"></Button>
+            
+            <Entry Placeholder="Email"></Entry>
+            <Entry Placeholder="Mật khẩu" IsPassword="True"></Entry>
+            <Button Text="Đăng nhập" TextColor="White" BackgroundColor="#2196F3"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
